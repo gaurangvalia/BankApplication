@@ -1,0 +1,15 @@
+<h4>Card Lists</h4>
+<div class="card-deck">
+    <div class="card border border-info" *ngFor="let userDataCardItem of userDataCard">
+      <div class="card-body ">
+        <h5 class="card-title">Bank Name: {{userDataCardItem.bankName}}</h5>
+        <p class="card-text">Base Currency: {{userDataCardItem.baseCurrency}}</p>
+        <p class="card-text">Target Currency: {{userDataCardItem.targerCurrency}}</p>
+        <p class="card-text">Amount: {{userDataCardItem.amount}}</p>
+        <p class="card-text">Rate Of Target Currency: {{userDataCardItem.rateOfTargetCurrency}} {{userDataCardItem.targerCurrency}}</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Total Amount: {{userDataCardItem.totalAmount}} {{userDataCardItem.targerCurrency}}</small>
+      </div>
+    </div>
+  </div>

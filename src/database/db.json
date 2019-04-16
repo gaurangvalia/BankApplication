@@ -1,0 +1,58 @@
+{
+  "Bank": [
+    {
+      "bankName": "HDFC",
+      "baseCurrency": "BGN",
+      "amount": 33,
+      "targerCurrency": "AUD",
+      "rateOfTargetCurrency": 0.808398,
+      "totalAmount": 26.677134,
+      "id": 1
+    },
+    {
+      "bankName": "SBI",
+      "baseCurrency": "BGN",
+      "amount": 60,
+      "targerCurrency": "IDR",
+      "rateOfTargetCurrency": 8132.820602,
+      "totalAmount": 487969.23612,
+      "id": 2
+    },
+    {
+      "bankName": "BOB",
+      "baseCurrency": "CZK",
+      "amount": 12,
+      "targerCurrency": "TRY",
+      "rateOfTargetCurrency": 0.25593,
+      "totalAmount": 3.07116,
+      "id": 3
+    },
+    {
+      "bankName": "BOI",
+      "baseCurrency": "JPY",
+      "amount": 14,
+      "targerCurrency": "CAD",
+      "rateOfTargetCurrency": 0.011969,
+      "totalAmount": 0.167566,
+      "id": 4
+    },
+    {
+      "bankName": "ABB",
+      "baseCurrency": "JPY",
+      "amount": 55,
+      "targerCurrency": "TRY",
+      "rateOfTargetCurrency": 0.051893,
+      "totalAmount": 2.854115,
+      "id": 5
+    },
+    {
+      "bankName": "HDFC",
+      "baseCurrency": "EUR",
+      "amount": 6,
+      "targerCurrency": "INR",
+      "rateOfTargetCurrency": 78.672132,
+      "totalAmount": 472.03279200000003,
+      "id": 6
+    }
+  ]
+}

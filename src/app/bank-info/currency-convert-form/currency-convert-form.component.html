@@ -1,0 +1,57 @@
+<div class="col-sm-4">
+  <h3>Convert Currency Form</h3>
+  <form [formGroup]="bankInfoFormGroup" (ngSubmit)="getDataByFormGroup()">
+    <div class="form-group">
+      <label for="">Enter bank name:</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Bank Name"
+        formControlName="bankName">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Select Base Currency</label>
+      <select class="form-control" formControlName="baseCurrency">
+        <option value="" disabled>Base Currency</option>
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+        <option value="JPY">JPY</option>
+        <option value="BGN">BGN</option>
+        <option value="CZK">CZK</option>
+        <option value="DKK">DKK</option>
+        <option value="GBP">GBP</option>
+        <option value="HUF">HUF</option>
+        <option value="PLN">PLN</option>
+        <option value="RON">RON</option>
+        <option value="SEK">SEK</option>
+        <option value="CHF">CHF</option>
+        <option value="NOK">NOK</option>
+        <option value="HRK">HRK</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="">Enter Amount:</label>
+      <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Enter Amount"
+        formControlName="amount">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Select Target Currency</label>
+      <select class="form-control" id="exampleFormControlSelect1" formControlName="targerCurrency">
+        <option value="" disabled>Target Currency</option>
+        <option value="RUB">RUB</option>
+        <option value="TRY">TRY</option>
+        <option value="AUD">AUD</option>
+        <option value="BRL">BRL</option>
+        <option value="CAD">CAD</option>
+        <option value="CNY">CNY</option>
+        <option value="HKD">HKD</option>
+        <option value="IDR">IDR</option>
+        <option value="INR">INR</option>
+        <option value="KRW">KRW</option>
+        <option value="MXN">MXN</option>
+        <option value="MYR">MYR</option>
+        <option value="NZD">NZD</option>
+        <option value="PHP">PHP</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>&nbsp;
+    <button type="button" class="btn btn-info" [routerLink]="['../currency-card-list']">Next</button>&nbsp;
+  </form>
+</div>
